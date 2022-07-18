@@ -217,6 +217,14 @@ Cards
 /*}*/
 
 /*(1170 - 64)/3  = 368 */
+
+/*card row height if we have more content*/
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
 .cards-center {
     display: grid;
     grid-column-gap: 2rem;
